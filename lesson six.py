@@ -1,0 +1,18 @@
+my_dict = {'Danil' : 2000, 'Sava' : 2005, 'Katy' : 2001, 'Vlad' : 2003, 'Sergey' : 2001}
+print(my_dict)
+my_dict['Artem'] = 1997
+print(my_dict['Katy']); print(my_dict.get('Artem'))
+my_dict.update({'Lida' : 1999, 'Ksenia' : 2002})
+print(my_dict)
+S = my_dict.pop('Sava')
+print(S)
+print(my_dict)
+My_set = (1,2,4,1,2,7,8,5,7,8,9,'w','f','w','f',' ',' ')
+print(My_set)
+print(set(My_set))
+My_set = set(My_set)
+print(My_set)
+My_set.add('q')
+print(My_set.remove(1))
+print(My_set.discard(2))
+print(My_set)
